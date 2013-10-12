@@ -8,7 +8,7 @@ list_of_things = [
     5467.829,
     123.90,
     123,
-    ['doge doge', 23, ['doge', 5, 'much doge, so want', [90000], {}], 4],
+    ['doge doge', 23, ['ham doge', 5, 'much doge, so want', [90000], {}], 4],
     {'key': 'value'},
     'fortune',
     'doge wow',
@@ -19,78 +19,100 @@ list_of_things = [
 ]
 
 
-# Write a function that takes a nested list and filters for only odd numbers.
 def all_odd(some_list):
+    """
+    This function filters a nested list for all odd numbers.
+    """
     return []
 
 print all_odd(list_of_things)
 
 
-# Write a function that takes a nested list and filters for only even numbers.
 def all_even(some_list):
+    """
+    This function filters a nested list for all even numbers.
+    """
     return []
 
 print all_even(list_of_things)
 
 
-# Write a function that filters a nested list for strings smaller than 10 characters.
 def short_words(word_list):
+    """
+    This function filters a nested list for strings smaller than 10 characters.
+    """
     return []
 
 print short_words(list_of_things)
 
 
-# Write a function that finds the smallest number in a nested list and returns it.
 def smallest(some_list):
+    """
+    This function finds the smallest number in a nested list and returns it.
+    """
     return None
 
 print smallest(list_of_things)
 
 
-# Write a function that finds the largest number in a nested list and returns it.
 def largest(some_list):
+    """
+    This function finds the largest number in a nested list and returns it.
+    """
     return None
 
 print largest(list_of_things)
 
 
-# Write a function that finds all numbers in a nested list and returns those numbers divided by two.
 def halvesies(some_list):
+    """
+    This function finds all numbers in a nested list and returns those numbers divided by two.
+    """
     return []
 
 print halvesies(list_of_things)
 
 
-# Write a function that finds all strings in a nested list and returns a list of their lengths.
 def word_lenths(word_list):
+    """
+    This function finds all strings in a nested list and returns a list of their lengths.
+    """
     return []
 
 print word_lenths(list_of_things)
 
 
-# Write a function (using iteration) that sums all the numbers in a nested list.
 def sum_numbers(numbers):
+    """
+    This function (using iteration) that sums all the numbers in a nested list.
+    """
     return []
 
 print sum_numbers(list_of_things)
 
 
-# Write a function that multiplies all the numbers in a nested list together and returns one number.
 def mult_numbers(numbers):
+    """
+    This function multiplies all the numbers in a nested list together and returns one number.
+    """
     return None
 
 print mult_numbers(list_of_things)
 
 
-# Write a function that joins all the strings in a nested list together and returns a single string.
 def join_strings(string_list):
+    """
+    This function joins all the strings in a nested list together and returns a single string.
+    """
     return ""
 
 print join_strings(list_of_things)
 
 
-# Write a function that takes a nested list of integers and returns the average.
 def average(numbers):
+    """
+    This function takes a nested list of integers and returns the average.
+    """
     return None
 
 print average(list_of_things)
